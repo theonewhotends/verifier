@@ -1,0 +1,10 @@
+{
+  "version": "ethsig-1",
+  "artifact_sha256": "1eaff8fbe720c725baffb879ef1f34aa9444f22116a7d2488f12f8bf8c68efdd",
+  "artifact_length": 1057,
+  "title": "ROSTER",
+  "claim": "theonewhotends attests these exact bytes as approved for publication.",
+  "message": "PUBLICATION ATTESTATION v1\nsha256: 1eaff8fbe720c725baffb879ef1f34aa9444f22116a7d2488f12f8bf8c68efdd\nbytes: 1057\ntitle: ROSTER\nclaim: theonewhotends attests these exact bytes as approved for publication.",
+  "signature": "0x52358925297e6e24d8bd099544b5a4ff95e89b1f5b7ca9e7be61be7952e3085d57fcc40072251667fd8030b588ff4c31a452246dfa57a08451561a7d182049fd1c",
+  "declared_address": "0xB155B114Bf692ed8b7A682631904ea7729Fc7Cc3"
+}

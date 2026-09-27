@@ -1,0 +1,1 @@
+Synthetic publication verifier fixture.

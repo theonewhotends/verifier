@@ -1,0 +1,10 @@
+{
+  "version": "ethsig-1",
+  "artifact_sha256": "45899d1d29fc536848bf800aec85692cfa66b1d67c154a58c1c7a591c74f1032",
+  "artifact_length": 40,
+  "title": "Synthetic verifier acceptance fixture",
+  "claim": "theonewhotends attests these exact bytes as approved for publication.",
+  "message": "PUBLICATION ATTESTATION v1\nsha256: 45899d1d29fc536848bf800aec85692cfa66b1d67c154a58c1c7a591c74f1032\nbytes: 40\ntitle: Synthetic verifier acceptance fixture\nclaim: theonewhotends attests these exact bytes as approved for publication.",
+  "signature": "0x158f85926d2ef246af8f53096222504b011bac883fca468afc2f3ab38657dee15e04d093f68f7e8f3f28f028d4f395100f3c38414e841e545b8d5a6192801f0f1b",
+  "declared_address": "0x19E7E376E7C213B7E7e7e46cc70A5dD086DAff2A"
+}

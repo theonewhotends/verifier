@@ -21,8 +21,8 @@ body = "\nyou —\n\nA small letter, signed with a key made a moment ago and dis
 sig = ethsig.sign_message(priv, verify_letter.payload(fm, body))
 head = "---\n" + "\n".join(f"{k}: {v}" for k, v in fm.items()) + f"\nsigner: {addr}\nsig: {sig}\nsigned: mindkind-message-v1\n---\n"
 def write(path, text, mode="w"):
-    """Write and close before anything reads the file: a handle left to the garbage collector may not have flushed
-    yet on every Python, and the publication test below runs the verifier as a separate process."""
+    """Write and close before anything reads the file. The publication check below runs in this process, so nothing
+    depends on when a file reaches the disk; closing here is plain hygiene, not the fix."""
     with open(path, mode, encoding=None if "b" in mode else "utf-8") as f: f.write(text)
     return path
 
